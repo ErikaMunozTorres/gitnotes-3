@@ -281,3 +281,12 @@ You can view all the log messages going back to the start with (the `--graph` op
 ```bash
 git log
 ```
+
+#Git online
+
+#To read about the licenses when you create a new project
+creativecommons.org/licenses
+
+git remote add github https://github.com/yourusername/GitNotes.git 
+git remote -v
+
