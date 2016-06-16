@@ -17,3 +17,9 @@ wc <filenames> -- word count, default output is line count, word count, characte
 touch -- creates a blank file
 wget <url> -- download file
 unzip <file> -- unzip the contents of zip file <file>
+
+
+<command> -- run command and print output to screen
+<command> < <input-file> -- run command and take input from <input-file>
+<command> > <output-file> -- run command and save output to <output-file> (Note: Overwrites previous file)
+<command1> | <command2> ... -- run <command1> and put output into <command2>
